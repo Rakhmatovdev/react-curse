@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  margin: 0 auto 60px;
+  gap: 10px;
+  align-items: center;
+}
+
+nav h1 {
+  margin-right: auto;
+}
+
+nav a {
+  color: #333;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: white;
+  background: #0051ae;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+display: block;
+margin-bottom: 1rem;
+}
+
+.form-control span {
+display: block;
+margin-bottom: 10px;
+}
+
+.form-control input, textarea {
+padding: 5px 8px;
+font-family: inherit;
+width: 100%;
+resize: none;
+font-size: 20px;
+}
+
+.button {
+background:#848484;
+border: 0;
+padding: 8px 15px;
+color: #fff;
+cursor: pointer;
+display: block;
+width: 100%;
+}
+
+.button:hover {
+background:#848484d2;
+}
